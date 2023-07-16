@@ -6,6 +6,7 @@
 
     <title>Kadir</title>
     <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/phone.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
       rel="stylesheet"
@@ -20,12 +21,23 @@
     <div>
       <!-- header -->
       <header>
-        ERGİNEER BAR VE MANGAL
+        <div class="opakbackground">
+          <h1>ENGINEERS BAR VE MANGAL</h1>
 
-        <!-- nav -->
-        Menü Rezervasyonlar Özel Teklifler İletişim
+          <!-- nav -->
+          <nav class="navbar">
+            <a href="#">Menü</a>
+            <a href="#">Rezervasyonlar</a>
+            <a href="#">Özel Teklifler</a>
+            <a href="#">İletişim</a>
+          </nav>
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+          </div>
+        </div>
       </header>
-
       <!-- spacer -->
       <div class="spacer"></div>
 
@@ -47,7 +59,7 @@
           <h5>Şarap <span>₺5</span></h5>
           <p>Hafif ve meyveli</p>
           <p>Kokteyl <span>₺10</span></p>
-          <h5>Spesyellerimizi sorabilirsiniz</h5>
+          <h6>Spesyellerimizi sorabilirsiniz</h6>
         </div>
         <div class="Aperatif">
           <h3>Aperatifler</h3>
@@ -105,12 +117,33 @@
 
       <!-- footer -->
       <footer>
-        <!-- email signup -->
-        Mail listemize katılın! Üye Ol
-        <!-- nav -->
-        Menü Rezervasyonlar Özel Teklifler İletişim
-        <!-- copyright -->
-        ©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+        <div class="container">
+          <div class="mailyeri">
+            <form>
+              <h6>Mail listemize katılın!</h6>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="E-posta Adresi"
+              />
+              <input type="submit" value="Üye Ol" />
+            </form>
+          </div>
+
+          <div class="footersagkisim">
+            <nav class="footernav">
+              <a href="#">Menü</a>
+              <a href="#">Rezervasyonlar</a>
+              <a href="#">Özel Teklifler</a>
+              <a href="#">İletişim</a>
+            </nav>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+        </div>
       </footer>
     </div>
   </body>

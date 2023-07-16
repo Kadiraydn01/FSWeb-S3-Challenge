@@ -137,7 +137,30 @@ html {
   min-width: 428px;
   font-size: 62.5%;
 }
+.opakbackground {
+  background-color: rgb(0, 4, 17, 0.65);
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
 
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+}
+.icons i {
+  padding-top: 5rem;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+  color: white;
+}
+.navbar a {
+  font-size: 2rem;
+  color: white;
+}
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -157,25 +180,31 @@ i {
 
 h1 {
   font-size: 7.5rem;
+  text-align: center;
+  color: white;
+  padding-top: 5rem;
 }
 
 h2 {
-  font-size: 6rem;
-}
-
-h3 {
   font-size: 5rem;
 }
 
-h4 {
+h3 {
   font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
 }
 h5 {
   font-size: 3.5rem;
 }
+h6 {
+  font-size: 2.2rem;
+}
 p,
 a {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 /* header section */
@@ -214,81 +243,111 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .baslik {
   display: flex;
   justify-content: center;
-  margin-left: 10vh;
-  margin-right: 10vh;
+  margin-left: 40vw;
+  margin-right: 25vw;
+  color: white;
 }
 .div1 {
   display: flex;
   flex-direction: column;
-  padding: 4rem;
+
   text-align: center;
-  max-width: 40%;
-  max-height: 32%;
+  max-width: 50%;
+  max-height: 30%;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  margin-top: 5rem;
+  margin-left: 21rem;
 }
 .Aperatif {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 4rem;
-  max-width: 40%;
-  max-height: 32%;
-  margin-right: 2rem;
+  max-width: 50%;
+  max-height: 30%;
+  margin-right: 3rem;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
 }
 .Corba {
   display: flex;
   flex-direction: column;
   padding: 4rem;
   text-align: center;
-  max-width: 50%;
-  max-height: 25%;
+  max-width: 45%;
+  max-height: 30%;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  margin-top: 3rem;
 }
 .meze {
   text-align: center;
   display: flex;
   flex-direction: column;
   padding: 4rem;
-  max-width: 40%;
-  max-height: 32%;
-  margin-right: 2rem;
+  max-width: 50%;
+  max-height: 30%;
+  margin-right: 3rem;
+  color: white;
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
 }
 .tatlı {
   text-align: center;
   display: flex;
   flex-direction: column;
   margin: auto;
-  max-width: 40%;
+  max-width: 50%;
   max-height: 32%;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
 }
 /* footer section */
 footer {
   width: 100%;
   height: 15vh;
-  padding-top: 2.5vh;
   font-size: 3rem;
 }
-
-/* mobile media query */
-@media (max-width: 428px) {
-  /* header section */
-  .header-title {
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 4rem;
-  }
-
-  /* menu */
-  .menu {
-    background-image: none;
-  }
-
-  /* footer section */
-  footer {
-    height: auto;
-    padding-top: 2.5vh;
-    font-size: 2rem;
-  }
+.container {
+  background: rgb(0, 4, 17);
+  display: flex;
+  width: 100%;
+}
+.mailyeri {
+  width: 40vw;
+}
+.footersagkisim {
+  display: flex;
+}
+.footernav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 9rem;
+  margin-right: 10rem;
+}
+footer h6 {
+  color: white;
+}
+.footernav a {
+  font-size: 2rem;
+  color: white;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(0, 4, 17);
+}
+.copyright p {
+  font-size: 1rem;
+  color: white;
 }
